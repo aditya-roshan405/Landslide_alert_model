@@ -1,0 +1,16 @@
+Accuracy: 0.9950
+
+              precision    recall  f1-score   support
+
+        Safe       1.00      1.00      1.00       140
+     Warning       0.98      1.00      0.99        47
+      Danger       1.00      0.92      0.96        13
+
+    accuracy                           0.99       200
+   macro avg       0.99      0.97      0.98       200
+weighted avg       1.00      0.99      0.99       200
+
+Confusion Matrix (rows=actual, cols=predicted):
+[[140   0   0]
+ [  0  47   0]
+ [  0   1  12]]
